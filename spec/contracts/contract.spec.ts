@@ -11,7 +11,6 @@ describe('Crowdsale spec', () => {
     let deployed;
 
     before(async () => {
-        console.log('before');
         deployed = await deploy(config.CONTRACT_NAME);
         accounts = await getAccounts();
         methods = deployed.erc20.methods;
