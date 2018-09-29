@@ -1,15 +1,10 @@
 Tenancy agreement smart contract in solidity.
 
-**Development**
+**Truffle**
 
-Linux
 ```
-  gulp watch
-```
-
-Windows
-```
-  gulp watch:windows
+  truffle compile
+  truffle dev
 ```
 
 **Testing**
